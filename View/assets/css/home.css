@@ -1,0 +1,21 @@
+body{
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header{
+    background-color: #0a233d;
+    color: rgb(255, 255, 255);
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    top: 0%;
+}
+
+li{
+    list-style-type: none;
+}
+
+.navigation{
+    color: white;
+}
