@@ -1,0 +1,184 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #333;
+}
+
+header {
+    background-color: #002b54;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-left: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+main {
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+}
+
+.form-section {
+    flex: 2;
+    margin-right: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.form-section h1 {
+    font-size: 24px;
+    color: #002b54;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"] {
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+}
+
+form .radio-group {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+form .radio-group input[type="radio"] {
+    margin-right: 5px;
+}
+
+form .radio-group label {
+    margin-right: 20px;
+}
+
+form button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #002b54;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #004080;
+}
+
+aside {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.aside-section h2 {
+    font-size: 18px;
+    color: #002b54;
+}
+
+.aside-item {
+    margin-top: 20px;
+}
+
+.aside-item img {
+    width: 40%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.aside-item h3 {
+    font-size: 16px;
+    margin: 10px 0 5px;
+    
+}
+
+.aside-item p {
+    font-size: 14px;
+    margin: 0 0 10px;
+}
+
+.aside-item a {
+    color: #004080;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #ccc;
+    margin-top: 20px;
+}
+
+footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+footer li {
+    margin-right: 20px;
+}
+
+footer a {
+    color: #002b54;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-colors {
+    display: flex;
+}
+
+.color-box {
+    background-color: #002b54;
+    color: #fff;
+    padding: 5px 10px;
+    margin-left: 10px;
+    border-radius: 4px;
+    font-size: 14px;
+}
